@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardView"
+    android:layout_margin="3dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="4dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvUsername1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:text="Username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvPassword1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:text="Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvFirstname"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:text="Firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvLastname"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:text="Lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvContact"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:text="Contact number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvAddress"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:text="Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnEditUser"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Edit User" />
+
+        <Button
+            android:id="@+id/btnDeleteUser"
+            android:layout_width="151dp"
+            android:layout_height="wrap_content"
+            android:text="Delete User" />
+
+    </LinearLayout>
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnAddUser"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+
+
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:background="@color/design_default_color_primary_dark"-->
+<!--            android:text="Add user"></Button>-->
+
+
+<!--    </RelativeLayout>-->
+
+
+</androidx.cardview.widget.CardView>
+
+
